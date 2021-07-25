@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form>
+      <div>
+        Name :
+        <input type="text" id="nameOne" />
+      </div>
+      <br />
+      <div>
+        gender :
+        <input type="radio" name="gender" id="gender" />
+        <label for="m">Male</label>
+        <input type="radio" name="gender" id="gender" />
+        <label for="f">Female</label>
+      </div>
+      <br />
+      <div>
+        Address:
+        <input type="text" name="address" id="address" />
+      </div>
+      <br />
+      <div>
+        <label> education:</label>
+        <select name="education" id="education">
+          <option value="matric">Matric</option>
+          <option value="Inter">Inter</option>
+          <option value="graduat">graduat</option>
+          <option value="Master">Master</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input type="button" value="submit" onclick="getSubmit()" />
+      </div>
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
